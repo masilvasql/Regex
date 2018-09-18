@@ -1,0 +1,29 @@
+1- DesafioCPF.js 
+
+// imprimir apenas os cpfs com formatos
+
+
+`CPF dos aprovados:
+        - 600.567.890-12
+        - 765.998-345-23  
+        - 080.444.123-28
+        - 998.534.996-00` 
+
+2- DesafioTelefone.js 
+
+//buscartelefones com e sem ddd
+
+`Lista telefônica:
+    - (11) 98756-1212
+    - (49) 99184-1106
+    - 98765-4321`
+
+3- desafioEmail.js
+
+// listar emails
+
+`Os emails dos convidados são:
+    - teste@email.com.br
+    - outro@email.com
+    - marcelo@gmail.com
+    - uniarp@edu.br`
