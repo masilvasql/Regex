@@ -9,4 +9,4 @@ console.log(texto.match(/[\wÀ-ú]+(?=, mas)/gi))
 // Negativo lookahead
 
 console.log(texto.match(/[\wÀ-ú]+\b(?!,)/gi))
-console.log(texto.match(/[\wÀ-ú]+[\s|\.](?!,)/gi))
+console.log(texto.match(/[\wÀ-ú]+[\s|\.](?! ,)/gi))
