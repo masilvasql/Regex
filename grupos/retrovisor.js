@@ -7,4 +7,9 @@ console.log(texto2.match(/(lenta)(mente).*\2.*\1\./gi))
 console.log(texto2.match(/(?:lenta)(mente).*\1/gi)) //?: não captura o valor
 console.log(texto2.match(/(lenta)(mente)/gi))
 console.log(texto2.match(/(lenta)(mente)?/gi))
-console.log(texto2.replace(/(lenta)(mente)/gi,'$2'))
+console.log(texto2.replace(/(lenta)(mente)/gi,'$2')) // $2 referencia o segundo retrovisor
+console.log(texto2.replace(/(lenta)(mente)/gi,'TESTE$2ueeeeer'))
+
+
+const texto3 = 'abcdefghijkll'
+console.log(texto3.match(/(a)(b)(c)(d)(e)(f)(g)(h)(i)(j)(k)(l)\12/g))
